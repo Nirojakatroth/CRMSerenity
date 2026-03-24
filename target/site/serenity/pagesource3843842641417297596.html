@@ -1,0 +1,147 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="utf-8"&gt;<br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/>
+  &lt;title&gt;Free CRM&lt;/title&gt;<br/>
+  &lt;link rel="manifest" href="/manifest.json"&gt;<br/>
+  &lt;link rel="shortcut icon" href="/assets/logo-medium.png" type="image/x-icon"&gt;<br/>
+  &lt;script src="/OneSignalSDK.js" type="module" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="https://accounts.google.com/gsi/client" async&gt;&lt;/script&gt;<br/>
+  &lt;style&gt;<br/>
+		.cogmento-loading-spinner div {<br/>
+			width: 20px;<br/>
+			height: 20px;<br/>
+			position: absolute;<br/>
+			left: -20px;<br/>
+			top: 53%;<br/>
+			background-color: #333;<br/>
+			border-radius: 50%;<br/>
+			animation: move 4s infinite cubic-bezier(.2, .64, .81, .23);<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(2) {<br/>
+			animation-delay: 150ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(3) {<br/>
+			animation-delay: 300ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(4) {<br/>
+			animation-delay: 450ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-centered {<br/>
+			font-family: Arial, Helvetica, sans-serif;<br/>
+			text-align: center;<br/>
+			width: 100%;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-wrapper {<br/>
+			margin: 5px;<br/>
+			height: 95vh;<br/>
+			width: 95vw;<br/>
+			display: flex;<br/>
+			align-items: center;<br/>
+		}<br/>
+<br/>
+		@keyframes move {<br/>
+			0% {<br/>
+				left: 0%;<br/>
+			}<br/>
+<br/>
+			75% {<br/>
+				left: 100%;<br/>
+			}<br/>
+<br/>
+			100% {<br/>
+				left: 100%;<br/>
+			}<br/>
+		}<br/>
+	&lt;/style&gt;&lt;!-- Start of freecrm Zendesk Widget script --&gt;<br/>
+  &lt;script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ea4248fa-1528-46f6-b22b-8eb8f5a1991d"&gt; &lt;/script&gt;&lt;!-- End of freecrm Zendesk Widget script --&gt;<br/>
+  &lt;script type="module" crossorigin="" src="/assets/js/index.js"&gt;&lt;/script&gt;<br/>
+  &lt;link rel="stylesheet" crossorigin="" href="/assets/index.css"&gt;<br/>
+  &lt;script src="https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151514" async&gt;&lt;/script&gt;<br/>
+  &lt;style id="googleidentityservice_button_styles"&gt;.qJTHM{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;color:#202124;direction:ltr;-webkit-touch-callout:none;font-family:"Roboto-Regular",arial,sans-serif;-webkit-font-smoothing:antialiased;font-weight:400;margin:0;overflow:hidden;-webkit-text-size-adjust:100%}.ynRLnc{left:-9999px;position:absolute;top:-9999px}.L6cTce{display:none}.bltWBb{overflow-wrap:break-word;word-break:break-word}.hSRGPd{color:#1a73e8;cursor:pointer;font-weight:500;text-decoration:none}.Bz112c-W3lGp{height:16px;width:16px}.Bz112c-E3DyYd{height:20px;width:20px}.Bz112c-r9oPif{height:24px;width:24px}.Bz112c-u2z5K{height:36px;width:36px}.Bz112c-uaxL4e{border-radius:10px}.LgbsSe-Bz112c{display:block}.S9gUrf-YoZ4jf{border:none;margin:0;padding:0}.S9gUrf-YoZ4jf *{border:none;margin:0;padding:0}.fFW7wc-ibnC6b&gt;.aZ2wEe&gt;div{border-color:#4285f4}.P1ekSe-ZMv3u{-webkit-transition:height linear .2s;transition:height linear .2s}.P1ekSe-ZMv3u&gt;div:nth-child(1){background-color:#1a73e8!important;-webkit-transition:width linear .3s;transition:width linear .3s}.P1ekSe-ZMv3u&gt;div:nth-child(2){background-image:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.7)),to(rgba(255,255,255,.7))),-webkit-gradient(linear,left top,right top,from(#1a73e8),to(#1a73e8))!important;background-image:-webkit-linear-gradient(left,rgba(255,255,255,.7),rgba(255,255,255,.7)),-webkit-linear-gradient(left,#1a73e8,#1a73e8)!important;background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.P1ekSe-ZMv3u&gt;div:nth-child(3){background-image:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.7)),to(rgba(255,255,255,.7))),-webkit-gradient(linear,left top,right top,from(#1a73e8),to(#1a73e8))!important;background-image:-webkit-linear-gradient(left,rgba(255,255,255,.7),rgba(255,255,255,.7)),-webkit-linear-gradient(left,#1a73e8,#1a73e8)!important;background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.haAclf{display:inline-block}.nsm7Bb-HzV7m-LgbsSe{border-radius:4px;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s;transition:background-color .218s,border-color .218s;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;border:1px solid #dadce0;color:#3c4043;cursor:pointer;font-family:"Google Sans",arial,sans-serif;font-size:14px;height:40px;letter-spacing:.25px;outline:none;overflow:hidden;padding:0 12px;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}@media screen and (-ms-high-contrast:active){.nsm7Bb-HzV7m-LgbsSe{border:2px solid windowText;color:windowText}}@media screen and (preferes-contrast:more){.nsm7Bb-HzV7m-LgbsSe{color:#000}}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe{font-size:14px;height:32px;letter-spacing:.25px;padding:0 10px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe{font-size:11px;height:20px;letter-spacing:.3px;padding:0 8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe{padding:0;width:40px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe{width:32px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe{width:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK{border-radius:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe{border-radius:16px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe{border-radius:10px}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc{border:none;color:#fff}.nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc{background-color:#1a73e8}.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{background-color:#202124;color:#e8eaed}@media screen and (prefers-contrast:more){.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{color:#fff}}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:18px;margin-right:8px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:14px;min-width:14px;width:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:10px;min-width:10px;width:10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin-left:8px;margin-right:-4px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:10px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:4px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-top-left-radius:3px;border-bottom-left-radius:3px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center;background-color:#fff;height:36px;margin-left:-10px;margin-right:12px;min-width:36px;width:36px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:28px;margin-left:-8px;margin-right:10px;min-width:28px;width:28px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:16px;margin-left:-6px;margin-right:8px;min-width:16px;width:16px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:3px;margin-left:2px;margin-right:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:8px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;-webkit-box-align:center;align-items:center;-webkit-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:nowrap;flex-wrap:nowrap;height:100%;position:relative;width:100%}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX{-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:1;-webkit-box-flex:1;flex-grow:1;font-family:"Google Sans",arial,sans-serif;font-weight:500;overflow:hidden;text-overflow:ellipsis;vertical-align:top}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-weight:300}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:0;-webkit-box-flex:0;flex-grow:0}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe{-webkit-transition:background-color .218s;transition:background-color .218s;bottom:0;left:0;position:absolute;right:0;top:0}.nsm7Bb-HzV7m-LgbsSe:hover,.nsm7Bb-HzV7m-LgbsSe:focus{box-shadow:none;border-color:rgb(210,227,252);outline:none}.nsm7Bb-HzV7m-LgbsSe:focus-within{outline:2px solid #00639b;border-color:transparent}.nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.08)}.nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.1)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.24)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.32)}.nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY{border-radius:50%;display:-webkit-box;display:-webkit-flex;display:flex;height:20px;margin-left:-4px;margin-right:8px;min-width:20px;width:20px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-family:"Roboto";font-size:12px;text-align:left}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS{overflow:hidden;text-overflow:ellipsis}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;-webkit-box-align:center;align-items:center;color:#5f6368;fill:#5f6368;font-size:11px;font-weight:400}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#e8eaed;fill:#e8eaed}@media screen and (prefers-contrast:more){.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff,.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#000;fill:#000}}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c{height:18px;margin:-3px -3px -3px 2px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:3px;border-bottom-right-radius:3px;margin-left:12px;margin-right:-10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:18px}.L5Fo6c-sM5MNb{border:0;display:block;left:0;position:relative;top:0}.L5Fo6c-bF1uUb{border-radius:4px;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0}.L5Fo6c-bF1uUb:focus{border:none;outline:none}sentinel{}&lt;/style&gt;<br/>
+  &lt;link id="googleidentityservice" type="text/css" media="all" href="https://accounts.google.com/gsi/style" rel="stylesheet"&gt;<br/>
+  &lt;link rel="stylesheet" href="https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body&gt;<br/>
+  &lt;div id="ui"&gt;<br/>
+   &lt;div class="ui middle aligned center aligned grid" style="margin-top: 10%;"&gt;<br/>
+    &lt;div class="column" style="max-width: 550px;"&gt;<br/>
+     &lt;form class="ui large form"&gt;<br/>
+      &lt;div class="ui stacked segment"&gt;<br/>
+       &lt;div class="field"&gt;<br/>
+        &lt;div class="ui left icon input"&gt;<br/>
+         &lt;i class="user icon"&gt;&lt;/i&gt;&lt;input type="text" name="email" placeholder="Email" value=""&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="field"&gt;<br/>
+        &lt;div class="ui left icon input"&gt;<br/>
+         &lt;i class="lock icon"&gt;&lt;/i&gt;&lt;input type="password" name="password" placeholder="Password" value=""&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="ui fluid large blue submit button"&gt;<br/>
+        Login<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/form&gt;<br/>
+     &lt;div class="login-with"&gt;<br/>
+      &lt;div&gt;<br/>
+       &lt;div style="height: 40px;"&gt;<br/>
+        &lt;div class="S9gUrf-YoZ4jf" style="position: relative;"&gt;<br/>
+         &lt;div&gt;&lt;/div&gt;&lt;iframe src="https://accounts.google.com/gsi/button?type=standard&amp;theme=outline&amp;size=large&amp;text=undefined&amp;shape=undefined&amp;logo_alignment=undefined&amp;width=undefined&amp;locale=undefined&amp;click_listener=undefined&amp;is_fedcm_supported=true&amp;client_id=80877044985-1u4ua551ob1220jlsde1clbanr5do1ka.apps.googleusercontent.com&amp;iframe_id=gsi_985779_27088&amp;cas=qJTUSWVixME7yYQ0DetLQbf6K3DTpapyAR5iDV1KQK4" class="L5Fo6c-PQbLGe" allow="identity-credentials-get" id="gsi_985779_27088" title="Sign in with Google Button" style="display: block; position: relative; top: 0px; left: 0px; height: 44px; width: 203px; border: 0px; margin: -2px -10px;"&gt;&lt;/iframe&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div&gt;<br/>
+       &lt;svg xmlns="http://www.w3.org/2000/svg" width="215" height="41" style="cursor: pointer;"&gt;<br/>
+        &lt;path fill="#ffffff" d="M0 0h215v41H0z"&gt;&lt;/path&gt;&lt;path fill="#8c8c8c" d="M214 1v39H1V1h213m1-1H0v41h215V0z"&gt;&lt;/path&gt;&lt;path fill="#5e5e5e" d="M45.812 25.082v-1.794a2.77 2.77 0 0 0 .573.4 4.484 4.484 0 0 0 .706.3 5.486 5.486 0 0 0 .745.187 3.954 3.954 0 0 0 .687.065 2.928 2.928 0 0 0 1.634-.365 1.2 1.2 0 0 0 .537-1.062 1.167 1.167 0 0 0-.178-.649 1.939 1.939 0 0 0-.5-.5 5.412 5.412 0 0 0-.757-.435q-.435-.209-.932-.436-.533-.285-.994-.578a4.285 4.285 0 0 1-.8-.648 2.724 2.724 0 0 1-.533-.8 2.6 2.6 0 0 1-.194-1.047 2.416 2.416 0 0 1 .333-1.285 2.794 2.794 0 0 1 .877-.9 4.019 4.019 0 0 1 1.239-.528 5.906 5.906 0 0 1 1.418-.172 5.692 5.692 0 0 1 2.4.374v1.721a3.817 3.817 0 0 0-2.295-.645 4.093 4.093 0 0 0-.771.074 2.335 2.335 0 0 0-.687.241 1.5 1.5 0 0 0-.494.433 1.06 1.06 0 0 0-.189.637 1.221 1.221 0 0 0 .145.608 1.573 1.573 0 0 0 .428.468 4.321 4.321 0 0 0 .688.414c.27.134.584.28.939.436q.548.285 1.034.6a4.881 4.881 0 0 1 .856.7 3.075 3.075 0 0 1 .585.846 2.493 2.493 0 0 1 .215 1.058 2.625 2.625 0 0 1-.322 1.348 2.584 2.584 0 0 1-.866.892 3.786 3.786 0 0 1-1.254.5 6.959 6.959 0 0 1-1.5.155c-.176 0-.392-.014-.647-.04s-.518-.067-.786-.117a7.75 7.75 0 0 1-.76-.187 2.373 2.373 0 0 1-.58-.269zM55.109 16.426a1.021 1.021 0 0 1-.713-.272.891.891 0 0 1-.3-.688.917.917 0 0 1 .3-.7 1.009 1.009 0 0 1 .713-.278 1.041 1.041 0 0 1 .732.278.915.915 0 0 1 .3.7.9.9 0 0 1-.3.678 1.035 1.035 0 0 1-.732.282zm.841 9.074h-1.7V18h1.7zM64.979 24.9q0 4.131-4.146 4.131a6.166 6.166 0 0 1-2.551-.491v-1.554a4.712 4.712 0 0 0 2.332.7 2.341 2.341 0 0 0 2.668-2.628v-.818h-.029a2.938 2.938 0 0 1-4.733.436 4.046 4.046 0 0 1-.837-2.684 4.738 4.738 0 0 1 .9-3.04 2.988 2.988 0 0 1 2.471-1.128 2.38 2.38 0 0 1 2.2 1.216h.029V18h1.7zM63.3 22.064v-.973a1.91 1.91 0 0 0-.523-1.352 1.71 1.71 0 0 0-1.3-.559 1.789 1.789 0 0 0-1.51.714 3.223 3.223 0 0 0-.545 2 2.78 2.78 0 0 0 .523 1.769 1.675 1.675 0 0 0 1.385.662 1.8 1.8 0 0 0 1.426-.632 2.4 2.4 0 0 0 .544-1.629zM73.853 25.5h-1.7v-4.227q0-2.1-1.483-2.1a1.616 1.616 0 0 0-1.279.582 2.167 2.167 0 0 0-.505 1.469V25.5h-1.7V18h1.7v1.245h.029a2.669 2.669 0 0 1 2.428-1.421 2.257 2.257 0 0 1 1.863.795 3.57 3.57 0 0 1 .644 2.3zM80.892 16.426a1.017 1.017 0 0 1-.713-.272.889.889 0 0 1-.3-.688.915.915 0 0 1 .3-.7 1 1 0 0 1 .713-.278 1.038 1.038 0 0 1 .731.278.915.915 0 0 1 .3.7.9.9 0 0 1-.3.678 1.033 1.033 0 0 1-.731.282zm.84 9.074h-1.7V18h1.7zM90.614 25.5h-1.7v-4.227q0-2.1-1.483-2.1a1.62 1.62 0 0 0-1.28.582 2.167 2.167 0 0 0-.5 1.469V25.5h-1.7V18h1.7v1.245h.03a2.668 2.668 0 0 1 2.427-1.421 2.258 2.258 0 0 1 1.864.795 3.576 3.576 0 0 1 .643 2.3zM106.865 18l-2.208 7.5h-1.776l-1.36-5.083a3.291 3.291 0 0 1-.1-.659h-.029a3.018 3.018 0 0 1-.132.644l-1.477 5.1h-1.741l-2.2-7.5H97.6l1.36 5.405a3.308 3.308 0 0 1 .087.645h.053a3.384 3.384 0 0 1 .117-.659L100.725 18h1.593l1.345 5.428a3.832 3.832 0 0 1 .095.644h.052a3.3 3.3 0 0 1 .109-.644l1.33-5.428zM108.977 16.426a1.017 1.017 0 0 1-.713-.272.889.889 0 0 1-.3-.688.915.915 0 0 1 .3-.7 1 1 0 0 1 .713-.278 1.038 1.038 0 0 1 .731.278.915.915 0 0 1 .3.7.9.9 0 0 1-.3.678 1.033 1.033 0 0 1-.731.282zm.84 9.074h-1.7V18h1.7zM115.979 25.42a2.944 2.944 0 0 1-1.307.248q-2.18 0-2.179-2.094v-4.241h-1.25V18h1.25v-1.736l1.7-.483V18h1.79v1.333h-1.79v3.75a1.478 1.478 0 0 0 .242.952 1 1 0 0 0 .8.285 1.16 1.16 0 0 0 .745-.248zM124.094 25.5h-1.7v-4.1q0-2.226-1.483-2.226a1.555 1.555 0 0 0-1.258.644 2.573 2.573 0 0 0-.511 1.649V25.5h-1.7V14.4h1.7v4.849h.029a2.679 2.679 0 0 1 2.428-1.421q2.492 0 2.492 3.055zM141.719 25.5h-1.726v-6.8q0-.835.1-2.043h-.03a6.992 6.992 0 0 1-.285.988l-3.126 7.855h-1.2l-3.136-7.793a7.371 7.371 0 0 1-.277-1.047h-.029q.059.63.058 2.058V25.5h-1.608V15h2.449l2.756 7a10.415 10.415 0 0 1 .409 1.2h.036c.181-.551.327-.962.439-1.23l2.808-6.97h2.362zM144.964 16.426a1.019 1.019 0 0 1-.713-.272.892.892 0 0 1-.3-.688.918.918 0 0 1 .3-.7 1.007 1.007 0 0 1 .713-.278 1.038 1.038 0 0 1 .731.278.911.911 0 0 1 .3.7.9.9 0 0 1-.3.678 1.033 1.033 0 0 1-.731.282zm.841 9.074h-1.7V18h1.7zM153.378 25.156a4.185 4.185 0 0 1-2.127.52 3.6 3.6 0 0 1-2.69-1.044 3.7 3.7 0 0 1-1.024-2.706 4.074 4.074 0 0 1 1.1-2.978 3.93 3.93 0 0 1 2.942-1.124 4.281 4.281 0 0 1 1.806.36v1.582a2.73 2.73 0 0 0-1.667-.586 2.312 2.312 0 0 0-1.762.728 2.669 2.669 0 0 0-.687 1.908 2.54 2.54 0 0 0 .647 1.838 2.291 2.291 0 0 0 1.736.674 2.708 2.708 0 0 0 1.725-.652zM159.4 19.619a1.4 1.4 0 0 0-.884-.242 1.514 1.514 0 0 0-1.258.682 3.047 3.047 0 0 0-.5 1.852V25.5h-1.7V18h1.7v1.545h.029a2.6 2.6 0 0 1 .764-1.233 1.72 1.72 0 0 1 1.151-.444 1.425 1.425 0 0 1 .7.14zM163.788 25.676a3.71 3.71 0 0 1-2.767-1.051 3.8 3.8 0 0 1-1.035-2.787 3.7 3.7 0 0 1 3.985-4.014 3.581 3.581 0 0 1 2.733 1.033 3.994 3.994 0 0 1 .98 2.864 3.938 3.938 0 0 1-1.056 2.875 3.8 3.8 0 0 1-2.84 1.08zm.08-6.5a1.932 1.932 0 0 0-1.571.7 2.913 2.913 0 0 0-.578 1.919 2.744 2.744 0 0 0 .585 1.856 1.957 1.957 0 0 0 1.564.678 1.862 1.862 0 0 0 1.539-.666 2.95 2.95 0 0 0 .537-1.9 2.99 2.99 0 0 0-.537-1.911 1.851 1.851 0 0 0-1.539-.672zM168.94 25.266v-1.575a3.383 3.383 0 0 0 2.1.725q1.535 0 1.535-.908a.714.714 0 0 0-.132-.436 1.263 1.263 0 0 0-.354-.318 2.864 2.864 0 0 0-.526-.25c-.2-.072-.428-.155-.677-.248a7.074 7.074 0 0 1-.829-.389 2.526 2.526 0 0 1-.615-.465 1.758 1.758 0 0 1-.369-.59 2.168 2.168 0 0 1-.124-.769 1.775 1.775 0 0 1 .256-.955 2.224 2.224 0 0 1 .687-.7 3.294 3.294 0 0 1 .979-.425 4.49 4.49 0 0 1 1.129-.139 5.163 5.163 0 0 1 1.856.315v1.487a3.127 3.127 0 0 0-1.812-.542 2.323 2.323 0 0 0-.582.066 1.477 1.477 0 0 0-.442.183.893.893 0 0 0-.285.282.677.677 0 0 0-.1.363.779.779 0 0 0 .1.41.936.936 0 0 0 .3.3 2.675 2.675 0 0 0 .482.234q.282.105.648.23a9.5 9.5 0 0 1 .866.4 2.872 2.872 0 0 1 .654.465 1.789 1.789 0 0 1 .416.6 2.034 2.034 0 0 1 .147.81 1.855 1.855 0 0 1-.263 1 2.212 2.212 0 0 1-.7.7 3.28 3.28 0 0 1-1.013.413 5.2 5.2 0 0 1-1.209.136 5.1 5.1 0 0 1-2.123-.41zM179.183 25.676a3.711 3.711 0 0 1-2.768-1.051 3.8 3.8 0 0 1-1.034-2.787 3.7 3.7 0 0 1 3.984-4.014 3.585 3.585 0 0 1 2.734 1.033 3.993 3.993 0 0 1 .979 2.864 3.934 3.934 0 0 1-1.056 2.875 3.794 3.794 0 0 1-2.839 1.08zm.08-6.5a1.934 1.934 0 0 0-1.572.7 2.919 2.919 0 0 0-.578 1.919 2.749 2.749 0 0 0 .585 1.856 1.959 1.959 0 0 0 1.565.678 1.864 1.864 0 0 0 1.539-.666 2.956 2.956 0 0 0 .537-1.9 3 3 0 0 0-.537-1.911 1.852 1.852 0 0 0-1.539-.672zM188.787 15.781a1.523 1.523 0 0 0-.782-.2q-1.235 0-1.235 1.4V18h1.74v1.333h-1.733V25.5h-1.7v-6.167H183.8V18h1.279v-1.216a2.37 2.37 0 0 1 .775-1.871 2.817 2.817 0 0 1 1.937-.684 2.866 2.866 0 0 1 .994.138zM193.94 25.42a2.944 2.944 0 0 1-1.307.248q-2.179 0-2.179-2.094v-4.241H189.2V18h1.25v-1.736l1.7-.483V18h1.79v1.333h-1.79v3.75a1.472 1.472 0 0 0 .242.952 1 1 0 0 0 .8.285 1.162 1.162 0 0 0 .745-.248z"&gt;&lt;/path&gt;&lt;path fill="#f25022" d="M13 11h9v9h-9z"&gt;&lt;/path&gt;&lt;path fill="#00a4ef" d="M13 21h9v9h-9z"&gt;&lt;/path&gt;&lt;path fill="#7fba00" d="M23 11h9v9h-9z"&gt;&lt;/path&gt;&lt;path fill="#ffb900" d="M23 21h9v9h-9z"&gt;&lt;/path&gt;<br/>
+       &lt;/svg&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div&gt;<br/>
+       &lt;button class="react-apple-signin-auth-btn react-apple-signin-auth-btn-light" type="button" aria-label="Signin with apple ID"&gt;<br/>
+        &lt;svg width="24px" height="44px" viewbox="0 0 24 44"&gt;<br/>
+         &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;<br/>
+          &lt;rect fill="#FFF" x="0" y="0" width="24" height="44"&gt;&lt;/rect&gt;<br/>
+          &lt;path d="M12.2337427,16.9879688 C12.8896607,16.9879688 13.7118677,16.5445313 14.2014966,15.9532812 C14.6449341,15.4174609 14.968274,14.6691602 14.968274,13.9208594 C14.968274,13.8192383 14.9590357,13.7176172 14.9405591,13.6344727 C14.2107349,13.6621875 13.3330982,14.1241016 12.8065162,14.7430664 C12.3907935,15.2142188 12.012024,15.9532812 12.012024,16.7108203 C12.012024,16.8216797 12.0305005,16.9325391 12.0397388,16.9694922 C12.0859302,16.9787305 12.1598365,16.9879688 12.2337427,16.9879688 Z M9.92417241,28.1662891 C10.8202857,28.1662891 11.2175318,27.5658008 12.3353638,27.5658008 C13.4716724,27.5658008 13.721106,28.1478125 14.7188404,28.1478125 C15.6980982,28.1478125 16.3540162,27.2424609 16.972981,26.3555859 C17.6658521,25.339375 17.9522388,24.3416406 17.9707154,24.2954492 C17.9060474,24.2769727 16.0306763,23.5101953 16.0306763,21.3576758 C16.0306763,19.491543 17.5088013,18.6508594 17.5919459,18.5861914 C16.612688,17.1819727 15.1253248,17.1450195 14.7188404,17.1450195 C13.6194849,17.1450195 12.7233716,17.8101758 12.1598365,17.8101758 C11.5501099,17.8101758 10.7463794,17.1819727 9.79483648,17.1819727 C7.98413335,17.1819727 6.14571538,18.6785742 6.14571538,21.5054883 C6.14571538,23.2607617 6.8293482,25.1176563 7.67003179,26.3186328 C8.39061773,27.3348438 9.01882085,28.1662891 9.92417241,28.1662891 Z" fill="#000" fill-rule="nonzero"&gt;&lt;/path&gt;<br/>
+         &lt;/g&gt;<br/>
+        &lt;/svg&gt;Sign in with Apple&lt;/button&gt;<br/>
+       &lt;style&gt;.react-apple-signin-auth-btn {background-color: transparent;border: none;padding: 0;cursor: pointer;border-radius: 4px;padding: 0 8px 0 2px;font-size: 14px;font-size: 1em;line-height: 1;border: 1px solid #000;overflow: hidden;display: inline-flex;justify-content: center;align-items: center;}.react-apple-signin-auth-btn-light {background-color: #FFF;color: #000;border-color: #000;}.react-apple-signin-auth-btn-dark {background-color: #000;color: #FFF;border-color: #FFF;}&lt;/style&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="ui message"&gt;<br/>
+      &lt;a href="https://register.freecrm.com/password/reset/request/?lang=en-GB"&gt;Forgot your password?&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="ui message"&gt;<br/>
+      No Account? Registration takes only a few seconds &lt;a href="https://register.freecrm.com/register?lang=en-GB"&gt;Sign Up&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;&lt;!-- Main entry point for React --&gt; &lt;iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"&gt;&lt;/iframe&gt;<br/>
+  &lt;div style="visibility: visible;"&gt;<br/>
+   &lt;div&gt;&lt;/div&gt;<br/>
+   &lt;div&gt;&lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="https://accounts.google.com/gsi/client" async defer&gt;&lt;/script&gt;<br/>
+  &lt;div id="onesignal-bell-container" class="onesignal-bell-container onesignal-reset onesignal-bell-container-bottom-left"&gt;<br/>
+   &lt;div id="onesignal-bell-launcher" class="onesignal-bell-launcher onesignal-bell-launcher-md onesignal-bell-launcher-bottom-left onesignal-bell-launcher-theme-default onesignal-bell-launcher-active"&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-button"&gt;<br/>
+     &lt;svg class="onesignal-bell-svg" xmlns="http://www.w3.org/2000/svg" width="99.7" height="99.7" viewbox="0 0 99.7 99.7" style="filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));; -webkit-filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));;"&gt;<br/>
+      &lt;circle class="background" cx="49.9" cy="49.9" r="49.9" style=""&gt;&lt;/circle&gt;&lt;path class="foreground" d="M50.1 66.2H27.7s-2-.2-2-2.1c0-1.9 1.7-2 1.7-2s6.7-3.2 6.7-5.5S33 52.7 33 43.3s6-16.6 13.2-16.6c0 0 1-2.4 3.9-2.4 2.8 0 3.8 2.4 3.8 2.4 7.2 0 13.2 7.2 13.2 16.6s-1 11-1 13.3c0 2.3 6.7 5.5 6.7 5.5s1.7.1 1.7 2c0 1.8-2.1 2.1-2.1 2.1H50.1zm-7.2 2.3h14.5s-1 6.3-7.2 6.3-7.3-6.3-7.3-6.3z" style=""&gt;&lt;/path&gt;&lt;ellipse class="stroke" cx="49.9" cy="49.9" rx="37.4" ry="36.9" style=""&gt;&lt;/ellipse&gt;<br/>
+     &lt;/svg&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-badge" style="filter: drop-shadow(0 2px 4px rgba(34,36,38,0));; -webkit-filter: drop-shadow(0 2px 4px rgba(34,36,38,0));;"&gt;&lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-message"&gt;<br/>
+     &lt;div class="onesignal-bell-launcher-message-body"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-dialog" style="filter: drop-shadow(0px 2px 2px rgba(34,36,38,.15));; -webkit-filter: drop-shadow(0px 2px 2px rgba(34,36,38,.15));;"&gt;<br/>
+     &lt;div class="onesignal-bell-launcher-dialog-body"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

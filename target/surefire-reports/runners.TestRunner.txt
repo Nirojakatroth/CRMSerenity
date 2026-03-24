@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.74 s <<< FAILURE! -- in runners.TestRunner
+Login to CRM Application.Succesfully login with Valid credentials -- Time elapsed: 23.88 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.LoginTest.user_verify_the_homepage(LoginTest.java:30)
+	at ✽.User verify the homepage(file:///C:/Users/Niroja/Downloads/CRMApplicationSerenityFramework/CRMApplication/src/test/resources/Features/Login.feature:7)
+

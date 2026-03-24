@@ -1,0 +1,375 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en" style="--line-color: #FFF;"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="utf-8"&gt;<br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/>
+  &lt;title&gt;Free CRM&lt;/title&gt;<br/>
+  &lt;link rel="manifest" href="/manifest.json"&gt;<br/>
+  &lt;link rel="shortcut icon" href="/assets/logo-medium.png" type="image/x-icon"&gt;<br/>
+  &lt;script src="/OneSignalSDK.js" type="module" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="https://accounts.google.com/gsi/client" async&gt;&lt;/script&gt;<br/>
+  &lt;style&gt;<br/>
+		.cogmento-loading-spinner div {<br/>
+			width: 20px;<br/>
+			height: 20px;<br/>
+			position: absolute;<br/>
+			left: -20px;<br/>
+			top: 53%;<br/>
+			background-color: #333;<br/>
+			border-radius: 50%;<br/>
+			animation: move 4s infinite cubic-bezier(.2, .64, .81, .23);<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(2) {<br/>
+			animation-delay: 150ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(3) {<br/>
+			animation-delay: 300ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-spinner div:nth-child(4) {<br/>
+			animation-delay: 450ms;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-centered {<br/>
+			font-family: Arial, Helvetica, sans-serif;<br/>
+			text-align: center;<br/>
+			width: 100%;<br/>
+		}<br/>
+<br/>
+		.cogmento-loading-wrapper {<br/>
+			margin: 5px;<br/>
+			height: 95vh;<br/>
+			width: 95vw;<br/>
+			display: flex;<br/>
+			align-items: center;<br/>
+		}<br/>
+<br/>
+		@keyframes move {<br/>
+			0% {<br/>
+				left: 0%;<br/>
+			}<br/>
+<br/>
+			75% {<br/>
+				left: 100%;<br/>
+			}<br/>
+<br/>
+			100% {<br/>
+				left: 100%;<br/>
+			}<br/>
+		}<br/>
+	&lt;/style&gt;&lt;!-- Start of freecrm Zendesk Widget script --&gt;<br/>
+  &lt;script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ea4248fa-1528-46f6-b22b-8eb8f5a1991d"&gt; &lt;/script&gt;<br/>
+  &lt;script src="https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151514" async&gt;&lt;/script&gt;&lt;!-- End of freecrm Zendesk Widget script --&gt;<br/>
+  &lt;script type="module" crossorigin="" src="/assets/js/index.js"&gt;&lt;/script&gt;<br/>
+  &lt;link rel="stylesheet" crossorigin="" href="/assets/index.css"&gt;<br/>
+  &lt;style id="googleidentityservice_button_styles"&gt;.qJTHM{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;color:#202124;direction:ltr;-webkit-touch-callout:none;font-family:"Roboto-Regular",arial,sans-serif;-webkit-font-smoothing:antialiased;font-weight:400;margin:0;overflow:hidden;-webkit-text-size-adjust:100%}.ynRLnc{left:-9999px;position:absolute;top:-9999px}.L6cTce{display:none}.bltWBb{overflow-wrap:break-word;word-break:break-word}.hSRGPd{color:#1a73e8;cursor:pointer;font-weight:500;text-decoration:none}.Bz112c-W3lGp{height:16px;width:16px}.Bz112c-E3DyYd{height:20px;width:20px}.Bz112c-r9oPif{height:24px;width:24px}.Bz112c-u2z5K{height:36px;width:36px}.Bz112c-uaxL4e{border-radius:10px}.LgbsSe-Bz112c{display:block}.S9gUrf-YoZ4jf{border:none;margin:0;padding:0}.S9gUrf-YoZ4jf *{border:none;margin:0;padding:0}.fFW7wc-ibnC6b&gt;.aZ2wEe&gt;div{border-color:#4285f4}.P1ekSe-ZMv3u{-webkit-transition:height linear .2s;transition:height linear .2s}.P1ekSe-ZMv3u&gt;div:nth-child(1){background-color:#1a73e8!important;-webkit-transition:width linear .3s;transition:width linear .3s}.P1ekSe-ZMv3u&gt;div:nth-child(2){background-image:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.7)),to(rgba(255,255,255,.7))),-webkit-gradient(linear,left top,right top,from(#1a73e8),to(#1a73e8))!important;background-image:-webkit-linear-gradient(left,rgba(255,255,255,.7),rgba(255,255,255,.7)),-webkit-linear-gradient(left,#1a73e8,#1a73e8)!important;background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.P1ekSe-ZMv3u&gt;div:nth-child(3){background-image:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.7)),to(rgba(255,255,255,.7))),-webkit-gradient(linear,left top,right top,from(#1a73e8),to(#1a73e8))!important;background-image:-webkit-linear-gradient(left,rgba(255,255,255,.7),rgba(255,255,255,.7)),-webkit-linear-gradient(left,#1a73e8,#1a73e8)!important;background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.haAclf{display:inline-block}.nsm7Bb-HzV7m-LgbsSe{border-radius:4px;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s;transition:background-color .218s,border-color .218s;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;border:1px solid #dadce0;color:#3c4043;cursor:pointer;font-family:"Google Sans",arial,sans-serif;font-size:14px;height:40px;letter-spacing:.25px;outline:none;overflow:hidden;padding:0 12px;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}@media screen and (-ms-high-contrast:active){.nsm7Bb-HzV7m-LgbsSe{border:2px solid windowText;color:windowText}}@media screen and (preferes-contrast:more){.nsm7Bb-HzV7m-LgbsSe{color:#000}}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe{font-size:14px;height:32px;letter-spacing:.25px;padding:0 10px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe{font-size:11px;height:20px;letter-spacing:.3px;padding:0 8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe{padding:0;width:40px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe{width:32px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe{width:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK{border-radius:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe{border-radius:16px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe{border-radius:10px}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc{border:none;color:#fff}.nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc{background-color:#1a73e8}.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{background-color:#202124;color:#e8eaed}@media screen and (prefers-contrast:more){.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{color:#fff}}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:18px;margin-right:8px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:14px;min-width:14px;width:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:10px;min-width:10px;width:10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin-left:8px;margin-right:-4px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:10px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:4px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-top-left-radius:3px;border-bottom-left-radius:3px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center;background-color:#fff;height:36px;margin-left:-10px;margin-right:12px;min-width:36px;width:36px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:28px;margin-left:-8px;margin-right:10px;min-width:28px;width:28px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:16px;margin-left:-6px;margin-right:8px;min-width:16px;width:16px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:3px;margin-left:2px;margin-right:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:8px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;-webkit-box-align:center;align-items:center;-webkit-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:nowrap;flex-wrap:nowrap;height:100%;position:relative;width:100%}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX{-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:1;-webkit-box-flex:1;flex-grow:1;font-family:"Google Sans",arial,sans-serif;font-weight:500;overflow:hidden;text-overflow:ellipsis;vertical-align:top}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-weight:300}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:0;-webkit-box-flex:0;flex-grow:0}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe{-webkit-transition:background-color .218s;transition:background-color .218s;bottom:0;left:0;position:absolute;right:0;top:0}.nsm7Bb-HzV7m-LgbsSe:hover,.nsm7Bb-HzV7m-LgbsSe:focus{box-shadow:none;border-color:rgb(210,227,252);outline:none}.nsm7Bb-HzV7m-LgbsSe:focus-within{outline:2px solid #00639b;border-color:transparent}.nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.08)}.nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.1)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.24)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.32)}.nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY{border-radius:50%;display:-webkit-box;display:-webkit-flex;display:flex;height:20px;margin-left:-4px;margin-right:8px;min-width:20px;width:20px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-family:"Roboto";font-size:12px;text-align:left}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS{overflow:hidden;text-overflow:ellipsis}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;-webkit-box-align:center;align-items:center;color:#5f6368;fill:#5f6368;font-size:11px;font-weight:400}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#e8eaed;fill:#e8eaed}@media screen and (prefers-contrast:more){.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff,.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#000;fill:#000}}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c{height:18px;margin:-3px -3px -3px 2px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:3px;border-bottom-right-radius:3px;margin-left:12px;margin-right:-10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{border-radius:18px}.L5Fo6c-sM5MNb{border:0;display:block;left:0;position:relative;top:0}.L5Fo6c-bF1uUb{border-radius:4px;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0}.L5Fo6c-bF1uUb:focus{border:none;outline:none}sentinel{}&lt;/style&gt;<br/>
+  &lt;link id="googleidentityservice" type="text/css" media="all" href="https://accounts.google.com/gsi/style" rel="stylesheet"&gt;<br/>
+  &lt;link rel="stylesheet" href="https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body class=""&gt;<br/>
+  &lt;div id="ui"&gt;<br/>
+   &lt;div class="ui fluid container"&gt;<br/>
+    &lt;div id="main-nav" class="ui left fixed vertical  icon menu sidebar-dark left-to-right"&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/home"&gt;&lt;i class="home icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Home&lt;/span&gt;&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/calendar"&gt;&lt;i class="calendar icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Calendar&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item active" href="/contacts" aria-current="page"&gt;&lt;i class="users icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Contacts&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/companies"&gt;&lt;i class="building icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Companies&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/deals"&gt;&lt;i class="money icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Deals&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/tasks"&gt;&lt;i class="tasks icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Tasks&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/cases"&gt;&lt;i class="comments icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Cases&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/calls"&gt;&lt;i class="phone icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Calls&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/documents"&gt;&lt;i class="file icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Documents&lt;/span&gt;&lt;/a&gt;&lt;button class="ui mini basic icon button"&gt;&lt;i aria-hidden="true" class="plus inverted icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/email"&gt;&lt;i class="mail outline icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Email&lt;/span&gt;&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/campaigns"&gt;&lt;i class="target icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Campaigns&lt;/span&gt;&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/forms"&gt;&lt;i class="wpforms icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Forms&lt;/span&gt;&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="menu-item-wrapper"&gt;<br/>
+      &lt;a class="item" href="/reports"&gt;&lt;i class="line chart icon"&gt;&lt;/i&gt;&lt;span class="item-text"&gt;Reports&lt;/span&gt;&lt;/a&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="ui fluid container"&gt;<br/>
+     &lt;div class="ui navbar fixed main menu" id="top-header-menu"&gt;<br/>
+      &lt;div class="header item" style="background-image: url(&quot;/assets/freecrm-logo.png&quot;);"&gt;&lt;/div&gt;&lt;b style="display: flex; align-items: center; margin-left: 10px;"&gt;Qualizeal&lt;/b&gt;<br/>
+      &lt;div class="right menu"&gt;<br/>
+       &lt;span class="user-display"&gt;Niroja Katroth&lt;/span&gt;&lt;span class="trial-indicator"&gt;&lt;a href="/settings/billing/"&gt;Free account&lt;/a&gt;&lt;/span&gt;<br/>
+       &lt;div class="ui inverted transparent left icon input"&gt;<br/>
+        &lt;input type="text" placeholder="Search"&gt;&lt;i class="black search icon"&gt;&lt;/i&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="ui buttons"&gt;<br/>
+        &lt;button class="ui basic icon button"&gt;&lt;i aria-hidden="true" class="pin icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui basic button item"&gt;&lt;i aria-hidden="true" class="trash alternate outline icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui vk basic icon button"&gt;&lt;i aria-hidden="true" class="grey help circle large icon"&gt;&lt;/i&gt;&lt;/button&gt;<br/>
+        &lt;div role="listbox" aria-expanded="false" class="ui basic button floating item dropdown" tabindex="0"&gt;<br/>
+         &lt;i aria-hidden="true" class="settings icon"&gt;&lt;/i&gt;<br/>
+         &lt;div class="menu transition"&gt;<br/>
+          &lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="settings icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Settings&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="shop icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Products&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="numbered list icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Messages&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="numbered list icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Invoices&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="angle double down icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Import&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="qrcode icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;VCM&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="idea icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;AI&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="content icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Content Templates&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="wrench icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Tools&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="book icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Documentation&lt;/span&gt;&lt;/a&gt;&lt;a role="option" class="item"&gt;&lt;i aria-hidden="true" class="power icon"&gt;&lt;/i&gt;&lt;span class="text"&gt;Log Out&lt;/span&gt;&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div id="main-content" class="ui fluid container"&gt;<br/>
+      &lt;div class="ui fluid container "&gt;<br/>
+       &lt;div class="ui secondary pointing menu header-title page-header" id="dashboard-toolbar"&gt;<br/>
+        &lt;div class="ui header item mb5 light-black"&gt;<br/>
+         &lt;div class="ui loader"&gt;&lt;/div&gt;&lt;span class="selectable "&gt; Contacts&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="ui right secondary pointing menu toolbar-container"&gt;<br/>
+         &lt;div class="item"&gt;<br/>
+          &lt;div class="ui blue basic horizontal label"&gt;<br/>
+           Showing 59 records<br/>
+          &lt;/div&gt;<br/>
+          &lt;div name="view" role="listbox" aria-expanded="false" class="ui selection scrolling dropdown" tabindex="0"&gt;<br/>
+           &lt;div aria-atomic="true" aria-live="polite" role="alert" class="divider default text"&gt;<br/>
+            View<br/>
+           &lt;/div&gt;&lt;i aria-hidden="true" class="dropdown icon"&gt;&lt;/i&gt;<br/>
+           &lt;div class="menu transition"&gt;<br/>
+            &lt;div role="option" aria-checked="false" aria-selected="true" class="selected item" style="pointer-events: all;"&gt;<br/>
+             &lt;span class="text"&gt;Default View&lt;/span&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;&lt;button class="ui linkedin button"&gt;Show Filters&lt;/button&gt;&lt;a href="/contacts/board"&gt;&lt;button class="ui linkedin button"&gt;&lt;i aria-hidden="true" class="columns icon"&gt;&lt;/i&gt;Board&lt;/button&gt;&lt;/a&gt;&lt;button class="ui linkedin icon button"&gt;&lt;i aria-hidden="true" class="refresh icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui linkedin button"&gt;&lt;i aria-hidden="true" class="download icon"&gt;&lt;/i&gt;Export&lt;/button&gt;&lt;a href="/contacts/new"&gt;&lt;button class="ui linkedin button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;Create&lt;/button&gt;&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="ui fluid container main-content" style="height: 100%;"&gt;<br/>
+        &lt;div class="table-wrapper"&gt;<br/>
+         &lt;table class="ui celled definition sortable striped table custom-grid"&gt;<br/>
+          &lt;thead class="full-width"&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;th class="collapsing"&gt;<br/>
+             &lt;div class="ui fitted checkbox" title="Select All"&gt;<br/>
+              &lt;input type="checkbox"&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Name&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Address&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Category&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Status&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Phone&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Email&lt;/th&gt;<br/>
+            &lt;th class=""&gt;Options&lt;/th&gt;<br/>
+           &lt;/tr&gt;<br/>
+          &lt;/thead&gt;<br/>
+          &lt;tbody class=""&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/34fe93e9-a0e4-4b7f-9d13-a670d3452402"&gt;RamyaRojaaa1773380053805 Niruuuu1773380053805&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/34fe93e9-a0e4-4b7f-9d13-a670d3452402"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/34fe93e9-a0e4-4b7f-9d13-a670d3452402"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/bdc658eb-c0ec-4649-a62b-a9212c49c14d"&gt;Rojaaa1773236935833 Niruuuu1773236935833&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/bdc658eb-c0ec-4649-a62b-a9212c49c14d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/bdc658eb-c0ec-4649-a62b-a9212c49c14d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/e7f0eca6-d788-42af-a4dc-6f10fbce53f1"&gt;Rojaaa1773236819436 Niruuuu1773236819436&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/e7f0eca6-d788-42af-a4dc-6f10fbce53f1"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/e7f0eca6-d788-42af-a4dc-6f10fbce53f1"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/a38c874d-6bc4-4b85-a070-fb7fa3770099"&gt;RamyaRojaaa1773232539101 Niruuuu1773232539101&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/a38c874d-6bc4-4b85-a070-fb7fa3770099"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/a38c874d-6bc4-4b85-a070-fb7fa3770099"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/a44b43fe-7151-4799-9b2e-c606d9abec00"&gt;Rojaaa1773232399636 Niruuuu1773232399636&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/a44b43fe-7151-4799-9b2e-c606d9abec00"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/a44b43fe-7151-4799-9b2e-c606d9abec00"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class="active"&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/f6c6f618-0d4e-4766-be5c-b152a04c9085"&gt;Rojaaa1773231700977 Niruuuu1773231700977&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;Customer&lt;/td&gt;<br/>
+            &lt;td class=""&gt;Active&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/f6c6f618-0d4e-4766-be5c-b152a04c9085"&gt;&lt;button class="ui icon inverted button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/f6c6f618-0d4e-4766-be5c-b152a04c9085"&gt;&lt;button class="ui icon inverted button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/98aba95d-f2db-45b2-9572-c9f95628a36d"&gt;Ramya &lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/98aba95d-f2db-45b2-9572-c9f95628a36d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/98aba95d-f2db-45b2-9572-c9f95628a36d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/40f4ed56-a520-4faa-9568-9a34d4d82aa7"&gt;Rojaaa1773221883284 Niruuuu1773221883284&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/40f4ed56-a520-4faa-9568-9a34d4d82aa7"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/40f4ed56-a520-4faa-9568-9a34d4d82aa7"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/9af263bb-c0c6-406c-96a9-4bcc718fcb33"&gt;Rojaaa1773221731857 Niruuuu1773221731857&lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;2-87,madhapur, Madhapur, Telengana, 504683.0&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/9af263bb-c0c6-406c-96a9-4bcc718fcb33"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/9af263bb-c0c6-406c-96a9-4bcc718fcb33"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;td class=""&gt;<br/>
+             &lt;div class="ui fitted checkbox"&gt;<br/>
+              &lt;input class="hidden" name="id" readonly tabindex="0" type="checkbox" value=""&gt;&lt;label&gt;&lt;/label&gt;<br/>
+             &lt;/div&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;a href="/contacts/e34c0f0b-df04-42a8-bb4d-4ed5efc4f05d"&gt;Ramya &lt;/a&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class=""&gt;&lt;/td&gt;<br/>
+            &lt;td class="right aligned collapsing options-buttons-container"&gt;&lt;a href="/contacts/e34c0f0b-df04-42a8-bb4d-4ed5efc4f05d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="unhide icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;a href="/contacts/edit/e34c0f0b-df04-42a8-bb4d-4ed5efc4f05d"&gt;&lt;button class="ui icon button"&gt;&lt;i aria-hidden="true" class="edit icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt;&lt;button class="ui icon disabled button" disabled tabindex="-1"&gt;&lt;i aria-hidden="true" class="green call icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;button class="ui button icon"&gt;&lt;i aria-hidden="true" class="trash icon"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/td&gt;<br/>
+           &lt;/tr&gt;<br/>
+          &lt;/tbody&gt;<br/>
+          &lt;tfoot class=""&gt;<br/>
+           &lt;tr class=""&gt;<br/>
+            &lt;th class=""&gt;&lt;/th&gt;<br/>
+            &lt;th colspan="7" class="left aligned"&gt;<br/>
+             &lt;div name="action" role="listbox" aria-expanded="false" class="ui selection upward dropdown" tabindex="0"&gt;<br/>
+              &lt;div aria-atomic="true" aria-live="polite" role="alert" class="divider default text"&gt;<br/>
+               Actions<br/>
+              &lt;/div&gt;&lt;i aria-hidden="true" class="dropdown icon"&gt;&lt;/i&gt;<br/>
+              &lt;div class="menu transition"&gt;<br/>
+               &lt;div role="option" aria-checked="true" aria-selected="true" class="active selected item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt; &lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt;Delete&lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt;Assign to user&lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt;Assign to Campaign&lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt;Queue calls&lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"&gt;<br/>
+                &lt;span class="text"&gt;Queue calls for user&lt;/span&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="ui basic icon left attached button" role="button" tabindex="0"&gt;<br/>
+              &lt;i aria-hidden="true" class="checkmark icon"&gt;&lt;/i&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="ui inline loader"&gt;&lt;/div&gt;<br/>
+             &lt;div class="ui right floated pagination menu custom-pagination"&gt;<br/>
+              &lt;a class="icon item disabled"&gt;&lt;i class="left chevron icon"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="item active"&gt;1&lt;/a&gt;&lt;a class="item"&gt;2&lt;/a&gt;&lt;a class="item"&gt;3&lt;/a&gt;&lt;a class="item"&gt;4&lt;/a&gt;&lt;a class="item"&gt;5&lt;/a&gt;&lt;a class="item"&gt;6&lt;/a&gt;&lt;a class="icon item"&gt;&lt;i class="right chevron icon"&gt;&lt;/i&gt;&lt;/a&gt;<br/>
+             &lt;/div&gt;&lt;/th&gt;<br/>
+           &lt;/tr&gt;<br/>
+          &lt;/tfoot&gt;<br/>
+         &lt;/table&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;&lt;iframe name="downloadFrame" id="downloadFrame" width="1" height="1" style="display: none; visibility: hidden;"&gt;&lt;/iframe&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;&lt;!-- Main entry point for React --&gt; &lt;iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"&gt;&lt;/iframe&gt;<br/>
+  &lt;div style="visibility: visible;"&gt;<br/>
+   &lt;div&gt;&lt;/div&gt;<br/>
+   &lt;div&gt;&lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" async&gt;&lt;/script&gt;<br/>
+  &lt;div id="onesignal-bell-container" class="onesignal-bell-container onesignal-reset onesignal-bell-container-bottom-left"&gt;<br/>
+   &lt;div id="onesignal-bell-launcher" class="onesignal-bell-launcher onesignal-bell-launcher-md onesignal-bell-launcher-bottom-left onesignal-bell-launcher-theme-default onesignal-bell-launcher-active"&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-button"&gt;<br/>
+     &lt;svg class="onesignal-bell-svg" xmlns="http://www.w3.org/2000/svg" width="99.7" height="99.7" viewbox="0 0 99.7 99.7" style="filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));; -webkit-filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));;"&gt;<br/>
+      &lt;circle class="background" cx="49.9" cy="49.9" r="49.9" style=""&gt;&lt;/circle&gt;&lt;path class="foreground" d="M50.1 66.2H27.7s-2-.2-2-2.1c0-1.9 1.7-2 1.7-2s6.7-3.2 6.7-5.5S33 52.7 33 43.3s6-16.6 13.2-16.6c0 0 1-2.4 3.9-2.4 2.8 0 3.8 2.4 3.8 2.4 7.2 0 13.2 7.2 13.2 16.6s-1 11-1 13.3c0 2.3 6.7 5.5 6.7 5.5s1.7.1 1.7 2c0 1.8-2.1 2.1-2.1 2.1H50.1zm-7.2 2.3h14.5s-1 6.3-7.2 6.3-7.3-6.3-7.3-6.3z" style=""&gt;&lt;/path&gt;&lt;ellipse class="stroke" cx="49.9" cy="49.9" rx="37.4" ry="36.9" style=""&gt;&lt;/ellipse&gt;<br/>
+     &lt;/svg&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-badge" style="filter: drop-shadow(0 2px 4px rgba(34,36,38,0));; -webkit-filter: drop-shadow(0 2px 4px rgba(34,36,38,0));;"&gt;&lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-message"&gt;<br/>
+     &lt;div class="onesignal-bell-launcher-message-body"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="onesignal-bell-launcher-dialog" style="filter: drop-shadow(0px 2px 2px rgba(34,36,38,.15));; -webkit-filter: drop-shadow(0px 2px 2px rgba(34,36,38,.15));;"&gt;<br/>
+     &lt;div class="onesignal-bell-launcher-dialog-body"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

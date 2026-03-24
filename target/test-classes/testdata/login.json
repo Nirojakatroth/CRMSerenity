@@ -1,0 +1,17 @@
+[
+  {
+    "username": "katrothniroja@gmail.com",
+    "password": "Niroja@9495",
+    "result": "success"
+  },
+  {
+    "username": "ramyaabraham7@gmail.com",
+    "password": "Ramya@2002",
+    "result": "success"
+  },
+  {
+    "username": "abc@gmail.com",
+    "password": "abc@",
+    "result": "fail"
+  }
+]

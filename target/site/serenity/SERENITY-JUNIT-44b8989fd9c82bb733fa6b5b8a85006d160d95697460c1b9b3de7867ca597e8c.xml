@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Login to CRM Application" skipped="0" tests="1" time="1.17" timestamp="2026-03-16 11:48:35"><testcase name="Succesfully login with Valid credentials"><error message="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;baseUrl&quot; is null" type="java.lang.NullPointerException">Cannot invoke "String.startsWith(String)" because "baseUrl" is null</error><system-err>Cannot invoke "String.startsWith(String)" because "baseUrl" is null&#13;
+pages.BasePage.openApplication(BasePage.java:24)&#13;
+steps.LoginSteps.openApplication(LoginSteps.java:13)&#13;
+stepdefinitions.LoginTest.user_launch_the_crm_url(LoginTest.java:16)&#13;
+</system-err></testcase></testsuite>

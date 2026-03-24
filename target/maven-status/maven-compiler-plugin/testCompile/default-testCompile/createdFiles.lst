@@ -1,0 +1,10 @@
+pages\BasePage.class
+steps\LoginSteps.class
+pages\LoginPage.class
+pages\ContactsPage.class
+stepdefinitions\LoginTest.class
+runners\TestRunner.class
+stepdefinitions\ContactTest.class
+utils\ConfigReader.class
+utils\ContactExcelReader.class
+steps\ContactSteps.class

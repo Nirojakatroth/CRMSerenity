@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CRM Contacts Module","Successfully create a contact","SUCCESS","2026-03-23T10:52:58.432611+05:30[Asia/Calcutta]","0.0","46.56"
+"CRM Contacts Module","Successfully delete the first contact","SUCCESS","2026-03-23T10:53:45.5702063+05:30[Asia/Calcutta]","0.0","23.3"
+"CRM Contacts Module","Successfully search a contact","SUCCESS","2026-03-23T10:54:10.2323922+05:30[Asia/Calcutta]","0.0","17.15"
+"CRM Contacts Module","Successfully edit the existing contact","SUCCESS","2026-03-23T10:54:28.8155204+05:30[Asia/Calcutta]","0.0","26.27"
+"Login to CRM Application","Successfully login with valid credentials","SUCCESS","2026-03-16T11:54:56.1519536+05:30[Asia/Calcutta]","0.0","14.74"
